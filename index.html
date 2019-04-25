@@ -9,18 +9,18 @@
     </head>
 
 <body>
-     <div class="jumbotron" style="margin-bottom:0px; color:white; background-color: #4aa1f3">
-        <h2 class="text-center" style="font-size: 50px; font-weight: 600;">Get Current Weather</h2>
+     <div style="margin-bottom:30px; color:white; background-color: #4aa1f3;border-radius: 5px;">
+        <h2 class="text-center" style="font-size: 45px; font-weight:700;font-style: oblique">Get Current Weather</h2>
     </div>
 
-    <div class="container">
+    <div class="container" style="height: 580px; ">
         <div class="row">
-            <h3 class="text-center text-primary" style="margin-left: 450px;margin-top: 20px;">Enter city name</h3>
+            <h3 class="text-center text-primary" style="margin-left: 430px;margin-top: 20px;font-size:40px;font-weight: bold;font-style: italic">Enter city name</h3>
             <span id="error"></span>
         </div>
         <div class="row form-group form-inline" id="rowDiv">
             <input style="margin-left: 80px" type="text" name="city" id="city" class="form-control" placeholder="City Name">
-            <button id="submitWeather" class="btn btn-primary">Search City</button>
+            <button id="submitWeather" class="btn btn-primary" style="margin-top: 20px;margin-bottom: 20px; margin-left: 10px;">Search City</button>
         </div>
         
         <div id="show">
@@ -29,6 +29,14 @@
         
     </div>
     <!-- jQuery library -->
+    <div class="footer">
+        <div class="container">
+        <div class="row text-center" style="padding-top: 30px;">
+            <p style="color: white;font-size: 20px;font-weight: bold;padding-left: 400px;">Copyright &copy;Current Weather App</p>
+            </div>
+        </div>
+    </div>
+    
     
    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type = "text/javascript" src = "weather.js" ></script>
